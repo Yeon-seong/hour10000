@@ -39,16 +39,6 @@
   --white-color: #FFFFFF;
   /* --gray-color: #BABCBE; */
 }
-/* body 전체 적용 */
-body {
-  background-color: var(--purple-color);
-  color: var(--white-color);
-}
-/* 버튼 전체 적용 */
-button {
-  background-color: var(--btn-yellow);
-  color: var(--purple-color);
-}
 /* 웹 접근성을 고려한 콘텐츠 숨기기 */
 .sr-only {
   position: absolute;
@@ -59,13 +49,29 @@ button {
 }
 
 
+/* ==================== 전체 적용 CSS ==================== */
+/* body 태그 */
+body {
+  background-color: var(--purple-color);
+  color: var(--white-color);
+}
+/* section 태그 */
+section {
+  text-align: center;
+}
+/* button 태그 */
+button {
+  background-color: var(--btn-yellow);
+  color: var(--purple-color);
+}
+
+
 
 /* ==================== 헤더 : 이미지 ==================== */
+/* Header 태그 전체 */
 /* #header-title {} */
 /* h1 {} */
 /* img {} */
-
-
 
 /* ==================== 섹션1 : 콘텐츠 ==================== */
 /* #section-contents {} */
