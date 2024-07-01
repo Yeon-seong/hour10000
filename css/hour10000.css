@@ -36,6 +36,7 @@
   --purple-color: #5B2386;
   --yellow-color: #FCEE21;
   --white-color: #FFFFFF;
+  /* --gray-color: #BABCBE; */
 }
 
 /* ========== 웹 접근성을 고려한 콘텐츠 숨기기 ========== */
@@ -45,4 +46,14 @@
   height: 1px;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* body 전체 적용 */
+body {
+  background-color: var(--purple-color);
+}
+
+/* ==================== 섹션2 : 모달창 ==================== */
+#section-modal {
+  background-color: var(--white-color);
 }
