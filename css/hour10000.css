@@ -1,5 +1,6 @@
 /* =============== 1만 시간의 법칙 CSS 파일 =============== */
 
+
 /* font-face 속성으로 웹폰트 적용 */
 @font-face {
   font-family: 'OTEnjoystoriesBA';
@@ -26,4 +27,13 @@
   src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
   url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
   url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+
+/* =============== css =============== */
+/* 사용자 지정 색상 */
+:root {
+  --purple-color: #5B2386;
+  --yellow-color: #FCEE21;
+  --white-color: #FFFFFF;
 }
