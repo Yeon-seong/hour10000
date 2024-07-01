@@ -58,12 +58,36 @@ button {
   overflow: hidden;
 }
 
+
+
+/* ==================== 헤더 : 이미지 ==================== */
+/* #header-title {} */
+/* h1 {} */
+/* img {} */
+
+
+
 /* ==================== 섹션1 : 콘텐츠 ==================== */
+/* #section-contents {} */
+/* .section-one-wrap {} */
+/* section-one-wrap {} */
 .intro-saying {
   color: var(--yellow-color);
+  font-size: 36px;
 }
+/* .section-input {} */
+/* .section-start {} */
+
+
 
 /* ==================== 섹션2 : 모달창 ==================== */
 #section-modal {
   background-color: var(--white-color);
 }
+/* .section-two-wrap {} */
+
+
+
+/* ==================== 섹션3 : 저작권 ==================== */
+/* #section-copyright {} */
+/* .section-three-wrap {} */
