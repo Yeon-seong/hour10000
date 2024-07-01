@@ -51,9 +51,15 @@
 /* body 전체 적용 */
 body {
   background-color: var(--purple-color);
+  color: var(--white-color);
 }
 
 /* ==================== 섹션2 : 모달창 ==================== */
 #section-modal {
   background-color: var(--white-color);
+}
+
+/* 버튼 */
+button {
+  color: var(--purple-color);
 }
