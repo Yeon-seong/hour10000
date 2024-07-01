@@ -37,3 +37,12 @@
   --yellow-color: #FCEE21;
   --white-color: #FFFFFF;
 }
+
+/* ========== 웹 접근성을 고려한 콘텐츠 숨기기 ========== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
