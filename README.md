@@ -1,10 +1,5 @@
 # ⏰ 1만 시간의 법칙
-* <b>(데스크톱(PC) 화면</b>
-<img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/bd5a70de-33bb-463c-ac0f-6badf45ec354" width="800" alt="데스크톱 메인 페이지" />
-* <b>모바일(Mobile) 화면</b>
-<img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/9c47b0c8-b4aa-4aba-9dd4-a543aa30adfb" width="360" alt="모바일 메인 페이지" />
-<img width="300" alt="모바일 모달창" src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/a27491f7-f57a-497b-a215-9bf0a97d36ec">
-<br>
+**`연습은 어제의 당신보다 당신을 더 낫게 만든다.`**
 
 ## 👩‍💻 프로젝트 소개
 > ESTsoft 위니브 - 프론트엔드 개발자 부트캠프 오르미 1기 개인 프로젝트
@@ -13,15 +8,22 @@
     1만 시간이 되기까지 며칠이 걸릴지 계산해주는 목적으로 만들어졌습니다.
 <br>
 
+## 🌐 프로젝트 배포 주소
+<!-- [표시할 내용] (링크) -->
+> [⌛1만 시간의 법칙 바로가기] (https://yeon-seong.github.io/hour10000/html/index.html)
+<br>
+
+* <b>(데스크톱(PC) 화면</b>
+<img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/bd5a70de-33bb-463c-ac0f-6badf45ec354" width="800" alt="데스크톱 메인 페이지" />
+* <b>모바일(Mobile) 화면</b>
+<img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/9c47b0c8-b4aa-4aba-9dd4-a543aa30adfb" width="360" alt="모바일 메인 페이지" />
+<img width="300" alt="모바일 모달창" src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/a27491f7-f57a-497b-a215-9bf0a97d36ec">
+<br>
+
 ## 🎓 1만 시간의 법칙이란?
 > 어떤 분야의 전문가가 되기 위해서는 최소한 1만 시간의 훈련이 필요하다는 법칙입니다.
 > * 1993년 미국 콜로라도 대학교의 심리학자 앤더스 에릭슨(K. Anders Ericsson)이 발표한 논문에서 처음 등장한 개념입니다.
 > * 1만 시간은 매일 3시간씩 훈련할 경우 약 10년, 하루 10시간씩 투자할 경우 약 3년이라는 시간이 소요됩니다.
-<br>
-
-## 🌐 프로젝트 배포 주소
-<!-- [표시할 내용] (링크) -->
-> [⌛1만 시간의 법칙 바로가기] (https://yeon-seong.github.io/hour10000/html/index.html)
 <br>
 
 ## ⏱ 프로젝트 개발 기간
@@ -35,10 +37,8 @@
 ### 현재 사용
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-
 ### 추후 사용 예정
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
-
 ### 사용 플랫폼
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
 
