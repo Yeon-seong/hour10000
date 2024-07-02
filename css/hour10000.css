@@ -38,6 +38,7 @@
   --color-white: #FFFFFF;
   --text-yellow: #F5DF4D;
   --text-gray: #BABCBE;
+  --shadow-black: #000000;
 }
 /* 웹 접근성을 고려한 콘텐츠 숨기기 */
 .sr-only {
@@ -104,6 +105,7 @@ button {
   font-size: 24px;
   border-radius: 56px;
   padding: 21px 49px;
+  box-shadow: 0px 0px 6px 0px var(--shadow-black);
 };
 /* 훈련시간 버튼 */
 .start-btn {};
