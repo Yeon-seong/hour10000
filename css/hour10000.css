@@ -62,18 +62,6 @@ body {
   color: var(--color-white);
   background-color: var(--color-purple);
 }
-/* input 태그 */
-.training-input {
-  font-size: 24px;
-  text-align: center;
-  border-radius: 10px;
-}
-/* input 태그 입력힌트 */
-.training-input::placeholder {
-  color: var(--text-gray);
-  font-family: 'GmarketSansMedium';
-}
-
 
 
 /* ==================== < Header > ==================== */
@@ -133,9 +121,40 @@ body {
 }
 /*  1만 시간의 법칙 소개 - 따옴표 내부(하얀색) */
 .quotes-saying {
-  /* font-family: 'Noto Sans KR'; */
   margin-bottom: 102px;
 }
+/* 두 개의 input을 감싸는 p 태그 */
+.section-input > p {
+  font-size: 24px;
+}
+/* 첫 번째 input 태그 wrap */
+.input-one-wrap {
+  margin-bottom: 27px;
+}
+/* 두 번째 input 태그 wrap */
+.input-two-wrap {
+  margin-bottom: 115px;
+}
+/* input 태그 */
+.training-input {
+  width: 228px;
+  height: 57px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 7px;
+}
+/* input 태그 입력힌트 */
+.training-input::placeholder {
+  color: var(--text-gray);
+  font-family: 'GmarketSansMedium';
+}
+
+
+
+
+
+
+
 
 /* 모든 버튼 */
 button {
