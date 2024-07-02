@@ -70,11 +70,11 @@ body {
   position: relative;
   margin-top: 125px;
 }
-/* 1만 시간의 법칙 로고 */
+/* 1만 시간의 법칙 로고 - 메인 이미지 */
 #header-wrap > h1 > .header-logo {
   width: 530px;
 }
-/* 1먼 시간의 법칙 로고 - 뒷시계 */
+/* 1먼 시간의 법칙 로고 - 뒷시계 이미지 */
 #header-wrap > h1 > .header-logo-back {
   position: absolute;
   width: 225px;
@@ -86,7 +86,7 @@ body {
 }
 
 
-/* ==================== < Section 1 > ==================== */
+/* ==================== < Section 1 : 소개> ==================== */
 #section-wrap {
   font-family: 'GmarketSansMedium';
   text-align: center;
@@ -105,7 +105,7 @@ body {
   text-align: center;
   line-height: 24px;
 }
-/* 1만 시간의 법칙 소개 - 따옴표 */
+/* 1만 시간의 법칙 소개 - 따옴표 이미지 */
 .quotes {
   position: absolute;
   top: 40%;
@@ -123,6 +123,7 @@ body {
 .quotes-saying {
   margin-bottom: 102px;
 }
+/* ==================== < Section 1 : 입력> ==================== */
 /* 두 개의 input을 감싸는 p 태그 */
 .section-input > p {
   font-size: 24px;
@@ -135,7 +136,7 @@ body {
 .input-two-wrap {
   margin-bottom: 115px;
 }
-/* input 태그 */
+/* input 태그 - 해당 분야의 전문가, 매일 훈련시간 */
 .training-input {
   width: 228px;
   height: 57px;
@@ -143,20 +144,13 @@ body {
   text-align: center;
   border-radius: 7px;
 }
-/* input 태그 입력힌트 */
+/* input 태그 입력힌트 - 예)프로그래밍, 예)5시간 */
 .training-input::placeholder {
   color: var(--text-gray);
   font-family: 'GmarketSansMedium';
 }
-
-
-
-
-
-
-
-
-/* 모든 버튼 */
+/* ==================== < Section 1 : 버튼> ==================== */
+/* 버튼 공통 속성 */
 button {
   background-color: var(--color-yellow);
   color: var(--color-purple);
@@ -166,8 +160,17 @@ button {
   padding: 21px 49px;
   box-shadow: 0px 0px 6px 0px var(--shadow-black);
 };
-/* 훈련시간 버튼 */
-/* .start-btn {}; */
+/* 훈련시간 - 나는 며칠 동안 훈련을 해야 1만 시간이 될까? 버튼 문구 */
+.start-btn {
+  width: 565px;
+  height: 66px;
+}
+/* 훈련시간 - 마우스 클릭 이미지 */
+.mouse-hand {
+  width: 64px;
+  height: 72px;
+  transform: translate(320px, -40px);
+}
 /* 훈련하러 가기 GO!GO! 버튼 */
 /* .go-btn {}; */
 /* 공유하기 버튼 */
