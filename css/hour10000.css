@@ -53,10 +53,14 @@
 /* ==================== 전체 적용 CSS ==================== */
 /* body 태그 */
 body {
-  background-color: var(--color-purple);
-  color: var(--color-white);
-  font-family: 'GmarketSansMedium';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-family: 'Noto Sans KR';
+  color: var(--color-white);
+  background-color: var(--color-purple);
 }
 /* input 태그 */
 .training-input {
@@ -64,6 +68,7 @@ body {
   text-align: center;
   border-radius: 10px;
 }
+/* input 태그 입력힌트 */
 .training-input::placeholder {
   color: var(--text-gray);
   font-family: 'GmarketSansMedium';
@@ -74,13 +79,25 @@ body {
 /* ==================== < Header > ==================== */
 /* Header 태그 전체 */
 #header-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* padding: 50px 0 50px 0; */
+  position: relative;
+  margin-top: 125px;
 }
 /* 1만 시간의 법칙 로고 */
-/* header > .header-logo {} */
+#header-wrap > h1 > .header-logo {
+  width: 530px;
+  top: 50%;
+  left: 50%;
+}
+/* 1먼 시간의 법칙 로고 - 뒷시계 */
+#header-wrap > h1 > .header-logo-back {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 
 
 /* ==================== < Section 1 > ==================== */
@@ -108,9 +125,9 @@ button {
   box-shadow: 0px 0px 6px 0px var(--shadow-black);
 };
 /* 훈련시간 버튼 */
-.start-btn {};
+/* .start-btn {}; */
 /* 훈련하러 가기 GO!GO! 버튼 */
-.go-btn {};
+/* .go-btn {}; */
 /* 공유하기 버튼 */
 .section-btns > .share-btn {
   background-color: var(--color-white);
