@@ -4,7 +4,7 @@
 
 ## 👩‍💻 프로젝트 소개
 > ESTsoft 위니브 - 프론트엔드 개발자 부트캠프 오르미 1기 개인 프로젝트
-> * 사용자가 **`선택한 분야`**에서 전문가가 되기 위해 **`매일 하루 몇 시간씩`** 훈련할 것인지를 직접 입력하고,<br>
+> * 사용자가 <b>선택한 분야</b>에서 전문가가 되기 위해 **`매일 하루 몇 시간씩`** 훈련할 것인지를 직접 입력하고,<br>
     1만 시간이 되기까지 며칠이 걸릴지 계산해주는 목적으로 개발되었습니다.
 > * 사용자가 해당 사이트를 이용함으로써 규칙적인 훈련 습관을 가질 수 있으며,<br>
     나아가 자신이 선택한 분야에서 전문가가 될 수 있도록 도와줍니다.
@@ -15,10 +15,12 @@
 > [⌛1만 시간의 법칙 바로가기] (https://yeon-seong.github.io/hour10000/html/index.html)
 <br>
 
-* <b>PC 화면</b>
+- <b>PC 화면</b>
 <img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/bd5a70de-33bb-463c-ac0f-6badf45ec354" width="800" alt="데스크톱 메인 페이지" />
 <br>
-* <b>Mobile 화면</b>
+
+
+- <b>Mobile 화면</b>
 <img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/9c47b0c8-b4aa-4aba-9dd4-a543aa30adfb" width="360" alt="모바일 메인 페이지" />
 <img width="300" alt="모바일 모달창" src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/a27491f7-f57a-497b-a215-9bf0a97d36ec">
 <br>
