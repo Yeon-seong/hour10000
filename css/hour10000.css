@@ -152,8 +152,12 @@ body {
 }
 
 /* ==================== < Section 1 : 버튼> ==================== */
-/* 버튼 공통 속성 */
+/* 버튼 전체 공통 속성 */
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
   background-color: var(--color-yellow);
   color: var(--color-purple);
   font-family: 'GmarketSansBold';
@@ -197,10 +201,19 @@ button {
 /* 훈련하러 가기 GO!GO! 버튼, 공유하기 버튼 */
 .section-btns {
   margin-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 훈련하러 가기 GO!GO! 버튼 */
+.section-btns > .go-btn {
+  margin-right: 9px;
 }
 /* 공유하기 버튼 */
 .section-btns > .share-btn {
+  height: 66px;
   background-color: var(--color-white);
+  margin-left: 9px;
 };
 
 
