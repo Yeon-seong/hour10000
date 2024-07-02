@@ -171,6 +171,24 @@ button {
   height: 72px;
   transform: translate(320px, -40px);
 }
+/* ==================== < Section 1 : 시간> ==================== */
+/* 당신은 전문가가 되기 위해서 문구 */
+.traning-one-time {
+  margin-top: 147px;
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+/* 전문가 이름, 훈련일수 span 태그 */
+.traning-one-time > span, .traning-two-time > span {
+  font-family: 'GmarketSansBold';
+  font-size: 72px;
+}
+/* 대략 일 이상 훈련하셔야 합니다!:) 문구 */
+.traning-two-time {
+  margin-bottom: 127px;
+  font-size: 24px;
+}
+
 /* 훈련하러 가기 GO!GO! 버튼 */
 /* .go-btn {}; */
 /* 공유하기 버튼 */
