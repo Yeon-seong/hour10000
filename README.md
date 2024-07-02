@@ -32,14 +32,13 @@
 <br>
 
 ## ⏱ 프로젝트 개발 기간
-> * <p> 레이아웃 : 2024.07.01 ~ 2024.07.02</p>
-> * <p> 반응형 디자인 : PC 뿐만 아니라 모바일에서도 화면 출력(추후 업데이트 예정)</p>
-> * <p> 시간 계산 기능 : 1만 시간이 되기까지 며칠이 걸릴지 계산하는 기능(추후 업데이트 예정)</p>
-> * <p> 그 외 추가 기능 : 추후 업데이트 예정</p>
+> * 레이아웃 : 2024.07.01 ~ 2024.07.02
+> * 반응형 디자인 : PC 뿐만 아니라 모바일에서도 화면 출력(추후 업데이트 예정)
+> * 시간 계산 기능 : 1만 시간이 되기까지 며칠이 걸릴지 계산하는 기능(추후 업데이트 예정)
+> * 그 외 추가 기능 : 추후 업데이트 예정
 <br>
 
 ## ⚒️ 사용스킬
-### 현재 사용
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
 ### 추후 사용 예정
@@ -49,5 +48,6 @@
 <br>
 
 ### 디자인 출처
+> [⌛1만 시간의 법칙 Figma](https://www.figma.com/design/5IhWM4ArisOgjNOWxjJjJB/1%EB%A7%8C-%EC%8B%9C%EA%B0%84%EC%9D%98-%EB%B2%95%EC%B9%99-(Copy)?t=a6QN8KJioKmc5tOi-0)
 > * ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
 > * ESsoft 부트캠프 과정 중 주식회사 WeNiv의 디자인을 제공받아 제작하였습니다.
