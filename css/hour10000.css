@@ -166,12 +166,15 @@ button {
 .start-btn {
   width: 565px;
   height: 66px;
+  transform: translateY(283px);
 }
 /* 훈련시간 - 마우스 클릭 이미지 */
-.mouse-hand {
+.mouse-container > .mouse-hand {
   width: 64px;
   height: 72px;
-  transform: translate(320px, -40px);
+  position: absolute;
+  justify-content: flex-end;
+  transform: translate(290px, -180px);
 }
 
 /* ==================== < Section 1 : 시간> ==================== */
