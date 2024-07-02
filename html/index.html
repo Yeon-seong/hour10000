@@ -16,24 +16,24 @@
 
 
   <body>
-    <!-- ==================== 헤더 : 이미지 ==================== -->
+    <!-- ==================== < Header > ==================== -->
     <!-- 1만 시간의 법칙 로고 및 시계 이미지 -->
-    <header id="header-title">
+    <header id="header-wrap">
       <h1>
-        <img src="../src/title.png" alt="1만 시간의 법칙 로고" />
+        <img class="header-logo" src="../src/title.png" alt="1만 시간의 법칙" />
       </h1>
-      <img src="../src/clock.png" alt="배경" />
+      <img class="header-logo" src="../src/clock.png" alt="배경" />
     </header>
 
 
-    <!-- ==================== 섹션1 : 콘텐츠 ==================== -->
-    <section id="section-contents">
+    <!-- ==================== < Section 1 > ==================== -->
+    <section id="section-wrap">
       <h2 class="sr-only">1만 시간의 법칙 콘텐츠</h2>
-      <div class="section-one-wrap">
+      <div class="section-one-content">
         <!-- 1만 시간의 법칙 속담 명언 및 따옴표 이미지 -->
         <div class="intro-saying">
           "연습은 어제의 당신보다 당신을 더 낫게 만든다."
-          <img src="../src/quotes.png" alt="따옴표">
+          <img src="../src/quotes.png" alt="따옴표" />
         </div>
         <!-- 1만 시간의 법칙에 대한 설명 -->
         <p>
@@ -47,25 +47,37 @@
         <div class="section-input">
           <p>
             나는
-            <input type="text" placeholder="예)프로그래밍" />
+            <input
+              type="text"
+              class="training-input"
+              name="training-input"
+              placeholder="예)프로그래밍"
+              required
+            />
             전문가가 될 것이다.
           </p>
-          <p>그래서 앞으로 매일 하루에<p>
+          <p>그래서 앞으로 매일 하루에ㅇ<p>
           <p>
-            <input type="number" placeholder="예)5시간" />
+            <input
+              type="number"
+              class="training-input"
+              name="training-input"
+              placeholder="예)5시간"
+              required
+            />
             시간씩 훈련할 것이다.
           </p>
         </div>
-        <!-- 훈련 시간 버튼 1개 및 마우스 클릭 이미지 -->
+        <!-- 훈련시간 버튼 1개 및 마우스 클릭 이미지 -->
         <div class="section-btns">
-          <button class="btn-start">
+          <button class="start-btn">
             나는 며칠 동안 훈련을 해야
             <br />
             1만 시간이 될까?
           </button>
           <img src="../src/click.png" alt="마우스 클릭" />
         </div>
-        <!-- 해당 분야의 전문가가 되기 위해 필요한 훈련 시간 설명 -->
+        <!-- 해당 분야의 전문가가 되기 위해 필요한 훈련시간 설명 -->
         <p>
           당신은
           <span>프로그래밍</span>
@@ -77,15 +89,15 @@
         </p>
         <!-- 훈련하러 가기, 공유하기 버튼 2개 -->
         <div class="section-btns">
-          <button class="training-btn">훈련하러 가기 GO!GO!</button>
+          <button class="go-btn">훈련하러 가기 GO!GO!</button>
           <button class="share-btn">공유하기</button>
         </div>
       </div>
-    </section> <!-- ============ 섹션1 :닫음 ============ -->
+    </section> <!-- ============ Section1 :닫음 ============ -->
 
 
-    <!-- ==================== 섹션2 : 모달창 ==================== -->
-    <!-- 섹션1 훈련하러 가기 버튼을 클릭하면 화면에 나타나는 모달 -->
+    <!-- ==================== < Section 2 > ==================== -->
+    <!-- 섹션1 훈련하러 가기 GO!GO! 버튼을 클릭하면 화면에 나타나는 모달 -->
     <!-- <section id="section-modal">
       <div class="section-two-wrap">
         <h2>화이팅!!♥♥♥</h2>
@@ -96,19 +108,17 @@
     </section> -->
 
 
-    <!-- ==================== 섹션3 : 저작권 ==================== -->
+    <!-- ==================== < Foooter > ==================== -->
     <!-- (주)위니브 로고 이미지 및 콘텐츠 저작권 문제 설명 -->
-    <section id="section-copyright">
+    <footer id="footer-wrap">
       <h2 class="sr-only">저작권</h2>
-      <div class="section-three-wrap">
-        <img src="../src/logo.png" alt="주식회사 위니브 로고">
-      </div>
-      <p>
+      <img class="footer-logo" src="../src/logo.png" alt="주식회사 위니브" />
+      <p class="footer-text">
         ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
         <br />
         수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
       </p>
-    </section> <!-- ============ 섹션3 :닫음 ============ -->
+    </footer>
 
 
     <!-- JavaScript 불러오기 -->
