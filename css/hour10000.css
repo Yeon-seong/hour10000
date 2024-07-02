@@ -123,6 +123,7 @@ body {
 .quotes-saying {
   margin-bottom: 102px;
 }
+
 /* ==================== < Section 1 : 입력> ==================== */
 /* 두 개의 input을 감싸는 p 태그 */
 .section-input > p {
@@ -149,6 +150,7 @@ body {
   color: var(--text-gray);
   font-family: 'GmarketSansMedium';
 }
+
 /* ==================== < Section 1 : 버튼> ==================== */
 /* 버튼 공통 속성 */
 button {
@@ -171,6 +173,7 @@ button {
   height: 72px;
   transform: translate(320px, -40px);
 }
+
 /* ==================== < Section 1 : 시간> ==================== */
 /* 당신은 전문가가 되기 위해서 문구 */
 .traning-one-time {
@@ -185,12 +188,14 @@ button {
 }
 /* 대략 일 이상 훈련하셔야 합니다!:) 문구 */
 .traning-two-time {
-  margin-bottom: 127px;
+  margin-bottom: 127px; 
   font-size: 24px;
 }
-
-/* 훈련하러 가기 GO!GO! 버튼 */
-/* .go-btn {}; */
+/* ==================== < Section 1 : 버튼> ==================== */
+/* 훈련하러 가기 GO!GO! 버튼, 공유하기 버튼 */
+.section-btns {
+  margin-bottom: 130px;
+}
 /* 공유하기 버튼 */
 .section-btns > .share-btn {
   background-color: var(--color-white);
