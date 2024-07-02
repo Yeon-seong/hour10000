@@ -12,15 +12,15 @@
 
 ## 🌐 프로젝트 배포 주소
 <!-- [표시할 내용] (링크) -->
-> [⌛1만 시간의 법칙 바로가기] (https://yeon-seong.github.io/hour10000/html/index.html)
+> [⌛1만 시간의 법칙 바로가기](https://yeon-seong.github.io/hour10000/html/index.html)
 <br>
 
-- <b>PC 화면</b>
+### <b>🖥PC 화면</b>
 <img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/bd5a70de-33bb-463c-ac0f-6badf45ec354" width="800" alt="데스크톱 메인 페이지" />
 <br>
 
 
-- <b>Mobile 화면</b>
+### <b>📱Mobile 화면<b>
 <img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/9c47b0c8-b4aa-4aba-9dd4-a543aa30adfb" width="360" alt="모바일 메인 페이지" />
 <img width="300" alt="모바일 모달창" src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/a27491f7-f57a-497b-a215-9bf0a97d36ec">
 <br>
@@ -46,8 +46,8 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
 ### 사용 플랫폼
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+<br>
 
 ### 디자인 출처
 > 본 서비스 내에 있는 이미지 및 콘텐츠의 저작권은 주식회사 위니브(WeNiv)에 있습니다.
->  ESsoft 프론트엔드 부트캠프 과정 중 주식회사 위니브(WeNiv)의 디자인을 제공받아 제작하였습니다.
-<br>
+> ESsoft 프론트엔드 부트캠프 과정 중 주식회사 위니브(WeNiv)의 디자인을 제공받아 제작하였습니다.
