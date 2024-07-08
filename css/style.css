@@ -33,15 +33,15 @@
 /* =============== css =============== */
 /* 사용자 지정 색상 */
 :root {
-  --color-purple: #5B2386;
-  --color-yellow: #FCEE21;
-  --color-white: #FFFFFF;
-  --text-yellow: #F5DF4D;
-  --text-gray: #BABCBE;
-  --shadow-black: #000000;
+  --purple_color: #5B2386;
+  --yellow_color: #FCEE21;
+  --white_color: #FFFFFF;
+  --yellow_text: #F5DF4D;
+  --gray_text: #BABCBE;
+  --black_shadow: #000000;
 }
 /* 웹 접근성을 고려한 콘텐츠 숨기기 */
-.sr-only {
+.screen_reader_only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -59,23 +59,23 @@ body {
   align-items: center;
   text-align: center;
   font-family: 'Noto Sans KR';
-  color: var(--color-white);
-  background-color: var(--color-purple);
+  color: var(--white_color);
+  background-color: var(--purple_color);
 }
 
 
-/* ==================== < Header > ==================== */
+
 /* Header 태그 전체 */
-#header-wrap {
+.header_container {
   position: relative;
   margin-top: 125px;
 }
 /* 1만 시간의 법칙 로고 - 메인 이미지 */
-#header-wrap > h1 > .header-logo {
+.header_container > h1 > .header_logo {
   width: 530px;
 }
 /* 1먼 시간의 법칙 로고 - 뒷시계 이미지 */
-#header-wrap > h1 > .header-logo-back {
+.header_container > h1 > .header_logo_back_image {
   position: absolute;
   width: 225px;
   height: 225px;
@@ -86,21 +86,21 @@ body {
 }
 
 
-/* ==================== < Section 1 : 소개> ==================== */
-#section-wrap {
+
+.section_container {
   font-family: 'GmarketSansMedium';
   text-align: center;
 }
 /* 연습은 어제의 당신보다 당신을 더 낫게 만든다 인용 문구(노란색) */
 .intro {
-  color: var(--color-yellow);
+  color: var(--yellow_color);
   font-family: 'OTEnjoystoriesBA';
   font-size: 36px;
   line-height: 40px;
   margin: 125px 0 78px 0;
 }
 /* 1만 시간의 법칙 소개 - 글자(하얀색) */
-.intro-saying {
+.intro_saying {
   position: relative;
   text-align: center;
   line-height: 24px;
@@ -114,31 +114,31 @@ body {
   z-index: -1;
 }
 /* 1만 시간의 법칙 소개 span 태그 - 글자(하얀색) */
-.intro-bold {
+.intro_bold {
   font-family: 'GmarketSansBold';
   font-weight: 400;
   font-size: 24px;
 }
 /*  1만 시간의 법칙 소개 - 따옴표 내부(하얀색) */
-.quotes-saying {
+.quotes_saying {
   margin-bottom: 102px;
 }
 
-/* ==================== < Section 1 : 입력> ==================== */
+
 /* 두 개의 input을 감싸는 p 태그 */
-.section-input > p {
+.section_input > p {
   font-size: 24px;
 }
 /* 첫 번째 input 태그 wrap */
-.input-one-wrap {
+.input_one_wrapper {
   margin-bottom: 27px;
 }
 /* 두 번째 input 태그 wrap */
-.input-two-wrap {
+.input_two_wrapper {
   margin-bottom: 115px;
 }
 /* input 태그 - 해당 분야의 전문가, 매일 훈련시간 */
-.training-input {
+.training_input {
   width: 228px;
   height: 57px;
   font-size: 24px;
@@ -146,34 +146,34 @@ body {
   border-radius: 7px;
 }
 /* input 태그 입력힌트 - 예)프로그래밍, 예)5시간 */
-.training-input::placeholder {
-  color: var(--text-gray);
+.training_input::placeholder {
+  color: var(--gray_text);
   font-family: 'GmarketSansMedium';
 }
 
-/* ==================== < Section 1 : 버튼> ==================== */
+
 /* 버튼 전체 공통 속성 */
 button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 66px;
-  background-color: var(--color-yellow);
-  color: var(--color-purple);
+  background-color: var(--yellow_color);
+  color: var(--purple_color);
   font-family: 'GmarketSansBold';
   font-size: 24px;
   border-radius: 56px;
   padding: 21px 49px;
-  box-shadow: 0px 0px 6px 0px var(--shadow-black);
+  box-shadow: 0px 0px 6px 0px var(--black_shadow);
 };
 /* 훈련시간 - 나는 며칠 동안 훈련을 해야 1만 시간이 될까? 버튼 문구 */
-.start-btn {
+.start_button {
   width: 565px;
   height: 66px;
   transform: translateY(283px);
 }
 /* 훈련시간 - 마우스 클릭 이미지 */
-.mouse-container > .mouse-hand {
+.mouse_container > .mouse_hand {
   width: 64px;
   height: 72px;
   position: absolute;
@@ -181,57 +181,54 @@ button {
   transform: translate(290px, -180px);
 }
 
-/* ==================== < Section 1 : 시간> ==================== */
+
 /* 당신은 전문가가 되기 위해서 문구 */
-.traning-one-time {
+.traning_one_time {
   font-size: 24px;
   margin-bottom: 17px;
 }
 /* 전문가 이름, 훈련일수 span 태그 */
-.traning-one-time > span, .traning-two-time > span {
+.traning_one_time > span, .traning_two_time > span {
   font-family: 'GmarketSansBold';
   font-size: 72px;
 }
 /* 대략 일 이상 훈련하셔야 합니다!:) 문구 */
-.traning-two-time {
+.traning_two_time {
   margin-bottom: 127px; 
   font-size: 24px;
 }
-/* ==================== < Section 1 : 버튼> ==================== */
+
 /* 훈련하러 가기 GO!GO! 버튼, 공유하기 버튼 */
-.section-btns {
+.section_button {
   margin-bottom: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* 훈련하러 가기 GO!GO! 버튼 */
-.section-btns > .go-btn {
+.section_button > .go_button {
   margin-right: 9px;
 }
 /* 공유하기 버튼 */
-.section-btns > .share-btn {
+.section_button > .share_button {
   height: 66px;
-  background-color: var(--color-white);
+  background-color: var(--white_color);
   margin-left: 9px;
 };
 
 
 
-/* ==================== < Section 2 > ==================== */
-/* #section-modal {} */
-/* .section-two-wrap {} */
+/* .section_modal {} */
+/* .section_two_wrapper {} */
 
 
-/* ==================== < Footer > ==================== */
-/* #footer-copyright {} */
-/* .footer-wrap {} */
+/* .footer_container {} */
 /* 위니브 로고 */
-.footer-logo {
+.footer_logo {
   margin: 20px 10px;
 }
 /* Footer 저작권 */
-.footer-text {
+.footer_text {
   font-family: 'Noto Sans KR';
   font-size: 12px;
   line-height: 17px;

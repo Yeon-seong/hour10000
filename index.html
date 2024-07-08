@@ -5,64 +5,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Cascading Style Sheets 불러오기 -->
-    <link rel="stylesheet" href="../css/hour10000.css" />
-    <!-- Reset CSS 불러오기 -->
-    <link rel="stylesheet" href="../css/reset.css" />
-    <!-- Favicon 불러오기 -->
-    <link rel="shortcut icon" href="../public/favicon.ico" />
+    <link rel="shortcut icon" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>1만 시간의 법칙 | 이다빈</title>
   </head>
 
 
   <body>
-    <!-- ==================== < Header > ==================== -->
     <!-- 1만 시간의 법칙 로고 및 시계 이미지 -->
-    <header id="header-wrap">
+    <header class="header_container">
       <h1>
-        <img class="header-logo" src="../src/title.png" alt="1만 시간의 법칙" />
-        <img class="header-logo-back" src="../src/clock.png" alt="배경" />
+        <img class="header_logo" src="./img/title.png" alt="1만 시간의 법칙" />
+        <img class="header_logo_back_image" src="./img/clock.png" alt="배경" />
       </h1>
     </header>
 
 
-    <!-- ==================== < Section 1 > ==================== -->
-    <section id="section-wrap">
-      <h2 class="sr-only">1만 시간의 법칙 콘텐츠</h2>
-      <div class="section-one-content">
+
+    <section class="section_container">
+      <h2 class="screen_reader_only">1만 시간의 법칙 콘텐츠</h2>
+      <div class="section_one_content">
         <!-- 1만 시간의 법칙 인용 문구 및 따옴표 이미지 -->
         <div class="intro">
           "연습은 어제의 당신보다 당신을 더 낫게 만든다."
         </div>
         <!-- 1만 시간의 법칙 소개 -->
-        <div class="intro-saying">
-          <img class="quotes" src="../src/quotes.png" alt="따옴표" />
-            <span class="intro-bold">1만 시간의 법칙</span>은
-            <div class="quotes-saying">
+        <div class="intro_saying">
+          <img class="quotes" src="./img/quotes.png" alt="따옴표" />
+            <span class="intro_bold">1만 시간의 법칙</span>은
+            <div class="quotes_saying">
               어떤 분야의 전문가가 되기 위해서는
               <br />
               최소한 1만 시간의 훈련이 필요하다는 법칙이다.
           </div>
         </div>
         <!-- 해당 분야의 전문가, 최소한의 시간을 입력하는 인풋 2개 -->
-        <div class="section-input">
-          <p class="input-one-wrap">
+        <div class="section_input">
+          <p class="input_one_wrapper">
             나는
             <input
               type="text"
-              class="training-input"
-              name="training-input"
+              class="training_input"
+              name="training_input"
               placeholder="예)프로그래밍"
               required
             />
             전문가가 될 것이다.
           </p>
-          <p class="input-two-wrap">
+          <p class="input_two_wrapper">
             그래서 앞으로 매일 하루에
             <input
               type="number"
-              class="training-input"
-              name="training-input"
+              class="training_input"
+              name="training_input"
               placeholder="예)5시간"
               required
             />
@@ -70,52 +66,52 @@
           </p>
         </div>
         <!-- 훈련시간 버튼 1개 및 마우스 클릭 이미지 -->
-        <div class="section-btns">
-          <button class="start-btn">
+        <div class="section_button">
+          <button class="start_button">
             나는 며칠 동안 훈련을 해야 1만 시간이 될까?
           </button>
         </div>
-        <div class="mouse-container">
-          <img class="mouse-hand" src="../src/click.png" alt="마우스 클릭" />
+        <div class="mouse_container">
+          <img class="mouse_hand" src="./img/click.png" alt="마우스 클릭" />
         </div>
         <!-- 해당 분야의 전문가가 되기 위해 필요한 훈련시간 설명 -->
-        <p class="traning-one-time">
+        <p class="traning_one_time">
           당신은
           <span>프로그래밍</span>
           전문가가 되기 위해서
         </p>
-        <p class="traning-two-time">
+        <p class="traning_two_time">
           대략
           <span>5110</span>일
           이상 훈련하셔야 합니다!:)
         </p>
         <!-- 훈련하러 가기, 공유하기 버튼 2개 -->
-        <div class="section-btns">
-          <button class="go-btn">훈련하러 가기 GO!GO!</button>
-          <button class="share-btn">공유하기</button>
+        <div class="section_button">
+          <button class="go_button">훈련하러 가기 GO!GO!</button>
+          <button class="share_button">공유하기</button>
         </div>
       </div>
-    </section> <!-- ============ Section1 :닫음 ============ -->
+    </section>
 
 
-    <!-- ==================== < Section 2 > ==================== -->
+
     <!-- 섹션1 훈련하러 가기 GO!GO! 버튼을 클릭하면 화면에 나타나는 모달 -->
-    <!-- <section id="section-modal">
-      <div class="section-two-content">
+    <!-- <section class="section_modal">
+      <div class="section_two_content">
         <h2>화이팅!!♥♥♥</h2>
         <span>당신의 꿈을 응원합니다!</span>
-        <img src="../src/licat.png" alt="당신의 꿈을 응원하는 위니브 라이켓 캐릭터" />
+        <img src="./img/licat.png" alt="당신의 꿈을 응원하는 위니브 라이켓 캐릭터" />
         <button>종료하고 진짜 훈련하러 가기 GO!GO!</button>
       </div>
     </section> -->
 
 
-    <!-- ==================== < Footer > ==================== -->
+
     <!-- (주)위니브 로고 이미지 및 콘텐츠 저작권 문제 설명 -->
-    <footer id="footer-wrap">
-      <h2 class="sr-only">저작권</h2>
-      <img class="footer-logo" src="../src/logo.png" alt="주식회사 위니브" />
-      <p class="footer-text">
+    <footer class="footer_container">
+      <h2 class="screen_reader_only">저작권</h2>
+      <img class="footer_logo" src="./img/logo.png" alt="주식회사 위니브" />
+      <p class="footer_text">
         ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
         <br />
         수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
@@ -123,7 +119,6 @@
     </footer>
 
 
-    <!-- JavaScript 불러오기 -->
-    <script src="../js/hour10000.js"></script>
+    <script src="./js/hour10000.js"></script>
   </body>
 </html>
