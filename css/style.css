@@ -93,11 +93,11 @@ body {
 }
 /* 연습은 어제의 당신보다 당신을 더 낫게 만든다 인용 문구(노란색) */
 .intro {
-  color: var(--yellow_color);
+  margin: 125px 0 78px 0;
   font-family: 'OTEnjoystoriesBA';
   font-size: 36px;
   line-height: 40px;
-  margin: 125px 0 78px 0;
+  color: var(--yellow_color);
 }
 /* 1만 시간의 법칙 소개 - 글자(하얀색) */
 .intro_saying {
@@ -144,6 +144,7 @@ body {
   font-size: 24px;
   text-align: center;
   border-radius: 7px;
+  background-color: var(--white_color);
 }
 /* input 태그 입력힌트 - 예)프로그래밍, 예)5시간 */
 .training_input::placeholder {
@@ -174,18 +175,18 @@ button {
 }
 /* 훈련시간 - 마우스 클릭 이미지 */
 .mouse_container > .mouse_hand {
-  width: 64px;
-  height: 72px;
   position: absolute;
   justify-content: flex-end;
+  width: 64px;
+  height: 72px;
   transform: translate(290px, -180px);
 }
 
 
 /* 당신은 전문가가 되기 위해서 문구 */
 .traning_one_time {
-  font-size: 24px;
   margin-bottom: 17px;
+  font-size: 24px;
 }
 /* 전문가 이름, 훈련일수 span 태그 */
 .traning_one_time > span, .traning_two_time > span {
@@ -200,10 +201,10 @@ button {
 
 /* 훈련하러 가기 GO!GO! 버튼, 공유하기 버튼 */
 .section_button {
-  margin-bottom: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 130px;
 }
 /* 훈련하러 가기 GO!GO! 버튼 */
 .section_button > .go_button {
